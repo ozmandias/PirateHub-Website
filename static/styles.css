@@ -1,0 +1,160 @@
+body{
+    background-color:#282828;
+    color:#ffffff;
+}
+
+a{
+    color:white;
+}
+
+a:hover{
+    color:white;
+}
+
+#logo{
+    display: inline;
+    float: left;
+    width: auto;
+    height: 56px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.centertext{
+    text-align: center;
+}
+
+.navbarcontainer{
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar{
+    display: inline-block;
+    margin: auto;
+}
+
+.nav-item{
+    display: inline;
+    margin: 10px;
+    padding: 0 60px 0 60px;
+}
+
+.introtext{
+    line-height: 120%;
+}
+
+.updatetext{
+    line-height: 200%;
+}
+
+.inputbox{
+    width: auto;
+    margin: auto;
+}
+
+.inputbutton{
+    width: auto;
+    margin: auto;
+}
+
+.formcontainer{
+    display: block;
+    position:relative;
+    width: 30%;
+    background-color: #343A40;
+    margin:auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding:50px 0 50px 0;
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.maintext{
+    margin: 30px 0 0 0;
+}
+
+.maincontainer{
+    background-color: #343A40;
+    margin: 30px 0 30px 0;
+    padding: 20px 20px 20px 20px;
+    border-radius: 25px;
+}
+
+.maincontentcontainer{
+    align-self: center;
+    width: 780px;
+    margin: auto;
+}
+
+.admininfocontainer{
+    background-color: rgb(112, 158, 216);
+    display: inline-block;
+    text-align: center;
+    border-radius: 50px;
+    margin: 12px 12px 12px 22px;
+}
+
+.adminimage{
+    width: auto;
+    height: 180px;
+    margin:20px 20px 20px 20px;
+    border-radius: 30%;
+}
+
+.maincontainertext{
+    display: block;
+}
+
+.mainmessagetext{
+    margin: auto;
+    width: 360px;
+    margin-bottom: 30px;
+}
+
+.serviceinfocontainer{
+    display: inline-block;
+    text-align: center;
+    margin: 14px;
+}
+
+.serviceimage{
+    width: auto;
+    height: 180px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.scaletext{
+    width: 160px;
+    margin: auto;
+}
+
+.mainmessagetextlarge{
+    width: 400px;
+}
+
+#errortext{
+    background-color: cadetblue;
+    text-align: center;
+    width: 360px;
+    margin: auto;
+    margin-top: 180px;
+    margin-bottom: 180px;
+    font-size: 32px;
+}
+
+#logoutbutton{
+    margin:20px;
+}
+
+#adminintrotext{
+    margin-top:34px;
+}

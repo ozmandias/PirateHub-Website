@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block main %}
+<h1 class="introtext">Welcome to PirateHub</h1>
+<h2 class="updatetext">Now Available</h2>
+<table class="table table-dark centertext">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Type</th>
+            <th>Price</th>
+            <th>Size</th>
+        </tr>
+        <tbody>
+            {% for piratehubdatarow in piratehubdatatable %}
+                <tr>
+                    <td>{{piratehubdatarow.dataname}}</td>
+                    <td>{{piratehubdatarow.type}}</td>
+                    <td>{{piratehubdatarow.price}}</td>
+                    <td>{{piratehubdatarow.size}}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </thead>
+</table>
+{% endblock %} 

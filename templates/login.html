@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Login
+{% endblock %}
+
+{% block main %}
+    <h1>PirateHub Login</h1>
+    <div class="formcontainer">
+        <h2>Enter Admin Account</h2>
+        <form action="/login" method="post">
+            <div class="form-group">
+                <input autocomplete="off" autofocus class="form-control inputbox" name="adminname" placeholder="Admin Name" type="text">
+            </div>
+            <div class="form-group">
+                <input class="form-control inputbox" name="password" placeholder="Password" type="password">
+            </div>
+            <button class="btn btn-primary inputbutton" type="submit">Log In</button>
+        </form>
+    </div>
+{% endblock %}

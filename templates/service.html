@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Service
+{% endblock %}
+
+{% block main %}
+    <h1>PirateHub Service</h1>
+    <p class="maintext">PirateHub offers software development services such as Game Development, Web Development and also serve data distribution services such as Repack Video Game Sales, Dealing Movies and TV Shows.</p>
+    <div class="maincontainer">
+        <h2>Available Service(s)</h2>
+        <div class="maincontentcontainer"> 
+            <div class="serviceinfocontainer">
+                <img class="serviceimage" src="static/webdevelopmenticon.png">
+                <h3>Web Development</h3>
+                <p class="maincontainertext scaletext">Web Development using HTML,CSS and Python for business and individuals.</p>
+            </div>
+            <div class="serviceinfocontainer">
+                <img class="serviceimage" src="static/gamedevelopmenticon.png">
+                <h3>Game Development</h3>
+                <p class="maincontainertext scaletext">Game Development with Unity Engine for business and individuals.</p>
+            </div>
+            <div class="serviceinfocontainer">
+                <img class="serviceimage" src="static/downloadicon.png">
+                <h3>Data Sales</h3>
+                <p class="maincontainertext scaletext">Repack Data distribution service includes Video Games, Movies and TV Shows.</p>
+            </div>
+        </div>
+    </div>
+    <p class="mainmessagetext  mainmessagetextlarge">Contact PirateHub by emailing to <a href="https://www.gmail.com">piratehub@gmail.com</a></p>
+{% endblock %}
