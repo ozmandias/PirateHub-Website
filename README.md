@@ -19,5 +19,8 @@
  
 ## helpers.py
   Contains the code for the other features that are required to process the main features of the PirateHub website.
+  **error()** - Error Page Feature of the PirateHub website.
+  
+  **login_required()** - Feature for Admin Page of PirateHub website that checks whether the admin has logged in or not.
 
 ###### Developed by Myo Si Thu
